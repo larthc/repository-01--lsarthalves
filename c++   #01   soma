@@ -1,0 +1,24 @@
+#include <iostream>
+
+int main() {
+
+    float numero1, numero2, resultado;
+
+
+    std::cout << "digite o primeiro número: ";
+    std::cin >> numero1;
+
+    std::cout << "digite o segundo número: ";
+    std::cin >> numero2;
+    
+    if (numero2 != 0) {
+        
+        resultado = numero1 / numero2;
+
+        std::cout << "o resultado da divisão é: " << resultado << std::endl;
+    } else {
+        std::cout << "erro: Não é possível dividir por zero." << std::endl;
+    }
+
+    return 0;
+}
